@@ -1,0 +1,24 @@
+/* src/styles.css */
+html {
+  background: #222;
+}
+
+.profileCard {
+  composes: sans-serif mw5 center bg-near-black br3 pa3 pa4-ns mv3 ba b--white-30 shadow-5 near-white from '~tachyons';
+}
+
+.profileCardBody {
+  composes: tc from '~tachyons';
+}
+
+.profileCardImage {
+  composes: br-100 h4 w4 dib ba b--white-20 bg-dark-pink pa2 from '~tachyons';
+}
+
+.profileCardTitle {
+  composes: f3 mb2 from '~tachyons';
+}
+
+.profileCardSubtitle {
+  composes: f5 fw4 white-60 mt0 from '~tachyons';
+}
